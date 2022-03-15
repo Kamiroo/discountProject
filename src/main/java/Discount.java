@@ -20,8 +20,12 @@ public class Discount {
             return 10;
         }
         else if (age >= 46 && age <= 65) {
-            System.out.println("Przysługuję Ci 10% rabatu.");
+            System.out.println("Przysługuję Ci 15% rabatu.");
             return 15;
+        }
+        else if (age >= 66 && age <= 150) {
+            System.out.println("Przysługuję Ci 20% rabatu.");
+            return 20;
         }
         else {
             System.out.println("Wprowadzono nieprawdiłową datę.");
