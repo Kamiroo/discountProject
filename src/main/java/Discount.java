@@ -23,7 +23,7 @@ public class Discount {
             System.out.println("Przysługuję Ci 15% rabatu.");
             return 15;
         }
-        else if (age >= 66 && age <= 150) {
+        else if (age > 66 && age <= 150) {
             System.out.println("Przysługuję Ci 20% rabatu.");
             return 20;
         }
